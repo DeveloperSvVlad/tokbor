@@ -1,0 +1,90 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?8op8qd');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?8op8qd#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?8op8qd') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?8op8qd') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?8op8qd##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-instagram {
+  &:before {
+    content: $icon-instagram;     
+  }
+}
+.icon-telegram {
+  &:before {
+    content: $icon-telegram;     
+  }
+}
+.icon-youtube {
+  &:before {
+    content: $icon-youtube;     
+  }
+}
+.icon-phone {
+  &:before {
+    content: $icon-phone;     
+  }
+}
+.icon-apple {
+  &:before {
+    content: $icon-apple; 
+  }
+}
+.icon-arrow-left {
+  &:before {
+    content: $icon-arrow-left; 
+  }
+}
+.icon-arrow-right {
+  &:before {
+    content: $icon-arrow-right; 
+  }
+}
+.icon-arrow-slider-left {
+  &:before {
+    content: $icon-arrow-slider-left; 
+  }
+}
+.icon-arrow-slider-right {
+  &:before {
+    content: $icon-arrow-slider-right; 
+  }
+}
+.icon-play {
+  &:before {
+    content: $icon-play; 
+  }
+}
+.icon-play-market {
+  &:before {
+    content: $icon-play-market; 
+  }
+}
+.icon-plus {
+  &:before {
+    content: $icon-plus; 
+  }
+}
+

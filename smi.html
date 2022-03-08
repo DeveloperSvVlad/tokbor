@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="">
+  <meta name="robots" content="">
+  <link rel="short icon" href="">
+  <link rel="stylesheet" href="libs/swiper.min.css">
+  <link rel="stylesheet" href="css/style.min.css">
+  <title>СМИ</title>
+</head>
+<body>
+  <div class="wrapper">
+  <!-- ?Подключение Header -->
+  <header class="header">
+        <div class="header__top">
+            <div class="container">
+                <div class="header__top-row">
+                    <a href="index.html" class="header__logo logo">
+                        <img src="img/logo.svg" alt="">
+                    </a>
+                    <div class="header__top-info">
+                        <div class="header__top-content">
+                            <button data-popup="popup-feedback" class="header__btn others-btn">Позвоните мне</button>
+                            <a href="tel:+998787777787" class="header__phone phone"><span class="icon-phone"></span>+998 787 777 787</a>
+                            <div class="header__social social">
+                                <div class="social__row">
+                                    <a href="#" class="social__item">
+                                        <span class="icon-instagram"></span>
+                                    </a>
+                                    <a href="#" class="social__item">
+                                        <span class="icon-telegram"></span>
+                                    </a>
+                                    <a href="#" class="social__item">
+                                        <span class="icon-youtube"></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="language">
+                            <a href="#" class="language__link active">
+                                Ru
+                            <div class="language__arrow">
+                                <img src="img/down-arrow.svg" width="10px" height="10px" alt="">
+                            </div>
+                            </a>
+                            <div class="language__dropdown">
+                                <a href="#" class="language__link">Uzb</a>
+                            </div>
+                        </div>
+                        <button class="burger">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header__bottom">
+            <div class="container">
+                <div class="header-ind">
+                    <nav class="header__nav menu">
+                        <ul class="menu__list">                     
+                            <li class="menu__list-item"><a href="index.html" class="menu__list-link active">Для электромобилистов</a></li>
+                            <li class="menu__list-item"><a href="clients.html" class="menu__list-link">Корпоративным клиентам</a></li>
+                            <li class="menu__list-item"><a href="offer.html" class="menu__list-link">Автодилерам</a></li>
+                            <li class="menu__list-item"><a href="smi.html" class="menu__list-link">Сми</a></li>
+                            <li class="menu__list-item"><a href="smi-video.html" class="menu__list-link">Сми-видео</a></li>
+                            <li class="menu__list-item"><a href="project.html" class="menu__list-link">Проекты</a></li>
+                        </ul>
+                        <div class="header__mobile">
+                            <div class="header__mobile-btn">
+                                <button data-popup="popup-feedback" class="header__btn others-btn">Позвоните мне</button>
+                            </div>
+                            <div class="header__top-content">
+                                <div class="mobile-links">
+                                    <a href="#">Линк1</a>
+                                    <a href="#">Линк2</a>
+                                    <a href="#">Линк3</a>
+                                </div>
+                                <a href="tel:+998787777787" class="header__phone phone"><span class="icon-phone"></span>+998 787 777 787</a>
+                                <div class="header__social social">
+                                    <div class="social__row">
+                                        <a href="#" class="social__item">
+                                            <span class="icon-instagram"></span>
+                                        </a>
+                                        <a href="#" class="social__item">
+                                            <span class="icon-telegram"></span>
+                                        </a>
+                                        <a href="#" class="social__item">
+                                            <span class="icon-youtube"></span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="header__any">
+            <div class="container">
+                <div class="header__any-row">
+                    <a href="#" class="header__any-links">Инструкция пользователя</a>
+                    <a href="#" class="header__any-links">FAQ</a>
+                    <a href="#" class="header__any-links">AC/DC (220В - 380В)</a>
+                    <a href="#" class="header__any-links">Разновидности коннекторов</a>
+                    <a href="#" class="header__any-links">Персональный кабинет</a>
+                </div>
+            </div>
+        </div>
+</header>
+
+
+<div class="popup popup-offer">
+    <div class="popup__wrapper">
+        <div class="popup__inner">
+          <div class="popup__body">
+            <button class="popup-links__btn-close popup__btn-close"></button>
+            <h3 class="popup__title title title-secondary mb-50">Оставить заявку</h3>
+            <form class="form" action="">
+                <div class="form__content">
+                    <div class="form__item">
+                        <label class="form__label form__label--req">Ваше имя</label>
+                        <div class="form__input">
+                            <input type="text" class="form__control">
+                        </div>
+                    </div>
+                    <div class="form__item">
+                        <label class="form__label form__label--req">Телефон</label>
+                        <div class="form__input">
+                            <input type="tel" class="form__control">
+                        </div>
+                    </div>
+                    <div class="form__item">
+                        <label class="form__label">Название организации</label>
+                        <div class="form__input">
+                            <input type="text" class="form__control">
+                        </div>
+                    </div>
+                </div>
+                <button class="form__btn primary-btn">Отправить</button>
+            </form>
+          </div>
+        </div>
+    </div>
+</div>
+
+<div class="popup popup-feedback">
+    <div class="popup__wrapper">
+        <div class="popup__inner">
+          <div class="popup__body">
+            <button class="popup-links__btn-close popup__btn-close"></button>
+            <div class="popup__text text-center">Оставьте Ваши контактные данные, что бы наш менеджер связался с нами.</div>
+            <form class="form" action="">
+                <div class="form__content">
+                    <div class="form__item">
+                        <label class="form__label form__label--req">Ваше имя</label>
+                        <div class="form__input">
+                            <input placeholder="Ваше имя" type="text" class="form__control">
+                        </div>
+                    </div>
+                    <div class="form__item">
+                        <label class="form__label form__label--req">Телефон</label>
+                        <div class="form__input">
+                            <input type="tel" placeholder="Телефон" class="form__control">
+                        </div>
+                    </div>
+                    <div class="form__item">
+                        <label class="form__label">В какой день вам удобнее позвонить?</label>
+                        <div class="form__input">
+                            <select class="form__control js-select" name="" id="">
+                                <option value="">Пн</option>
+                                <option value="">Вт</option>
+                                <option value="">Ср</option>
+                                <option value="">Чт</option>
+                                <option value="">Пт</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form__item">
+                        <label class="form__label">В какое время вам позвонить?</label>
+                        <div class="form__input">
+                            <select class="form__control js-select" name="" id="">
+                                <option value="">09:00-10:00</option>
+                                <option value="">10:00-11:00</option>
+                                <option value="">11:00-12:00</option>
+                                <option value="">12:00-13:00</option>
+                                <option value="">14:00-15:00</option>
+                                <option value="">16:00-17:00</option>
+                                <option value="">17:00-18:00</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <button class="form__btn primary-btn">Отправить</button>
+            </form>
+          </div>
+        </div>
+    </div>
+</div>
+
+
+
+  <!-- ?Основной контент -->
+  <main class="main">
+   <!-- Intro -->
+   <section class="hero mb-100">
+    <img src="img/intro-image/intro-image-4.jpg" alt="">
+   </section>
+   <!-- News -->
+   <section class="news">
+     <div class="container">
+        <div class="section-head mb-40">
+          <h2 class="section-head__title title title-primary">СМИ о нас</h2>
+        </div>
+        <div class="info">
+          <div class="info__wrapper mb-60">
+            <div class="info__item">
+              <div class="info__image">
+                  <img src="img/any-image/any-image-1.png" width="400" height="240" alt="">
+              </div>
+              <div class="info__content">
+                  <div class="info__desc">
+                      <div class="date">13 Сентября 2021</div>
+                      <h4 class="info__title">В Самарканде открылась первая станция для электромобилей</h4>
+                      <p>Всего в Узбекистане насчитывается 33 электрозаправки. В июне работала только 21.</p>
+                  </div>
+                  <a href="www.spot.uz" class="info__btn">www.spot.uz</a>
+              </div>
+            </div>
+            <div class="info__item">
+              <div class="info__image">
+                  <img src="img/any-image/any-image-2.png" width="400" height="240" alt="">
+              </div>
+              <div class="info__content">
+                  <div class="info__desc">
+                      <div class="date">17 июля 2021</div>
+                      <h4 class="info__title">Кейс от TokBor: зачем мы запустили сеть электрозаправок в Узбекистане и как на этом зарабатываем</h4>
+                      <p>Основатель TokBor Эркин Рузматов рассказал Spot, почему европейские станции пришлось дорабатывать для Узбекистана и на сколько хватает заряда электрокара.</p>
+                  </div>
+                  <a href="www.spot.uz" class="info__btn">www.spot.uz</a>
+              </div>
+            </div>
+            <div class="info__item">
+              <div class="info__image">
+                  <img src="img/any-image/any-image-3.png" width="400" height="240" alt="">
+              </div>
+              <div class="info__content">
+                  <div class="info__desc">
+                      <div class="date">28 июня 2021</div>
+                      <h4 class="info__title">В Ташкенте появилась еще одна станция быстрой зарядки электрокаров TokBor. Зарядка займет от 15 минут</h4>
+                      <p>Сегодня увидеть электромобиль на дорогах Узбекистана становится в порядке вещей. За 4 месяца этого года в Узбекистан завезли 156 электромобилей..</p>
+                  </div>
+                  <a href="www.podrobno.uz" class="info__btn">www.podrobno.uz</a>
+              </div>
+            </div>
+            <div class="info__item">
+              <div class="info__image">
+                  <img src="img/any-image/any-image-4.png" width="400" height="240" alt="">
+              </div>
+              <div class="info__content">
+                  <div class="info__desc">
+                      <div class="date">6 мая 2021</div>
+                      <h4 class="info__title">В Ташкенте создается сеть зарядных станций для электромобилей</h4>
+                      <p>Сейчас в городе уже девять таких заправок, хотя еще осенью прошлого года было 0.</p>
+                  </div>
+                  <a href="www.spot.uz" class="info__btn">www.spot.uz</a>
+              </div>
+            </div>
+            <div class="info__item">
+              <div class="info__image">
+                  <img src="img/any-image/any-image-5.png" width="400" height="240" alt="">
+              </div>
+              <div class="info__content">
+                  <div class="info__desc">
+                      <div class="date">4 мая 2021</div>
+                      <h4 class="info__title">TOKBOR установил зарядную станцию для электромобилей в BeFit PRO</h5>
+                      <p>BeFit PRO предлагает зарядить энергией не только спортсменов, но и их электромобили при помощи зарядного комплекса TOKBOR PRO.</p>
+                  </div>
+                  <a href="www.gazeta.uz" class="info__btn">www.gazeta.uz</a>
+              </div>
+            </div>
+            
+            <!-- pagination -->
+            <div class="pagination">
+                <div class="pagination__row">
+                    <a href="#" class="pagination__item"><span class="icon-arrow-left"></span></a>
+                    <a href="#" class="pagination__item active">1</a>
+                    <a href="#" class="pagination__item">2</a>
+                    <a href="#" class="pagination__item">3</a>
+                    <a href="#" class="pagination__item"><span class="icon-arrow-right"></span></a>
+                </div>
+            </div>
+          </div>
+        </div>
+     </div>
+   </section>
+  </main>   
+
+  <!-- ?Подключение Footer -->
+  <footer class="footer">
+    <div class="container">
+        <nav class="footer__nav">
+            <ul class="footer__nav-list">
+                <li class="footer__nav-list-item"><a href="#" class="footer__nav-list-link">Инструкция пользователя</a></li>
+                <li class="footer__nav-list-item"><a href="#" class="footer__nav-list-link">Карта заправок</a></li>
+                <li class="footer__nav-list-item"><a href="#" class="footer__nav-list-link">Статьи</a></li>
+            </ul>
+        </nav>
+        <div class="footer__center">
+            <a href="index.html" class="footer__logo logo">
+                <img src="img/logo.svg" alt="">
+            </a>
+            <div class="footer__contacts">
+                <a class="footer__contacts-link" href="tel:+998787777787">+998 787 777 787</a>
+                <a class="footer__contacts-link" href="mailto:info@tokbor.uz">info@tokbor.uz</a>
+            </div>
+        </div>
+        <div class="footer__bot">
+            <div class="footer__social social">
+                <div class="social__row">
+                    <a href="#" class="social__item">
+                        <span class="icon-instagram"></span>
+                    </a>
+                    <a href="#" class="social__item">
+                        <span class="icon-telegram"></span>
+                    </a>
+                    <a href="#" class="social__item">
+                        <span class="icon-youtube"></span>
+                    </a>
+                </div>
+            </div>
+            <div class="footer__copy">
+                <p>© 2021 Tokbor.Uz | Все права защищены.</p>
+                <a class="main-link" title="Создание и продвижение сайтов" href="https://www.life-style.uz/">Создание сайта Life Style</a>
+            </div>
+        </div>
+    </div>
+</footer>
+  
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="libs/fslightbox.js"></script>
+<script src="libs/swiper.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
